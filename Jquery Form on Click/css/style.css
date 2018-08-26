@@ -1,0 +1,39 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #f83d3d;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid rgb(221, 178, 178);
+    border-top: 1px solid rgb(223, 99, 99);
+    cursor: pointer;
+}
+
+ul {
+    width: 500px;
+    margin: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}

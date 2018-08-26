@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+body button {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+}
